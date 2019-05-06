@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## React Starter Kit — "[isomorphic](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)" web app boilerplate &nbsp; <a href="https://github.com/kriasoft/react-starter-kit/stargazers"><img src="https://img.shields.io/github/stars/kriasoft/react-starter-kit.svg?style=social&label=Star&maxAge=3600" height="20"></a> <a href="https://twitter.com/ReactStarter"><img src="https://img.shields.io/twitter/follow/ReactStarter.svg?style=social&label=Follow&maxAge=3600" height="20"></a>
 
 [React Starter Kit](https://www.reactstarterkit.com) is an opinionated boilerplate for web
@@ -229,10 +227,4 @@ Made with ♥ by Konstantin Tarkus ([@koistya](https://twitter.com/koistya)) and
 [demo]: http://demo.reactstarterkit.com
 [node]: https://nodejs.org
 [chat]: https://gitter.im/kriasoft/react-starter-kit
-=======
-# status
-status
->>>>>>> 2136d6f25ea85e422e8b854288af0dd5a80da237
-=======
-# status_oslh
->>>>>>> 8fcbda2d6df1d0f90ac15e5c066f2db703e1a458
+
