@@ -1,0 +1,97 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../variables.css';
+
+
+.faceblock {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.infoblock {
+  margin-top: -25px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left !important;
+
+}
+
+
+
+.cartoon {
+  margin-left: -15px;
+  margin-bottom: -15px;
+  margin-top: -15px;
+}
+
+.contactemail {
+  margin-bottom: 15px;
+}
+
+.namePlate {
+  color: #14425d;
+}
+
+.block {
+  margin: 0px auto;
+}
+
+.root {
+  margin-bottom: 0;
+}
+
+.icons {
+  display: inline-block;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: var(--max-content-width);
+  color: #14425d;
+  text-align: left;
+}
+
+.staticon2 {
+  color: #14425d;
+  width: 30px;
+  height: 30px;
+  margin-left: 11px;
+}
+
+.staticon1 {
+  color: #14425d;
+  width: 30px;
+  height: 30px;
+  margin-left: -3px;
+}
+
+.staticon1:hover {
+  color: rgba(147, 147, 147, 1);
+}
+
+.staticon2:hover {
+  color: rgba(147, 147, 147, 1);
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.125em; /* ~18px */
+}
+
+.link {
+  color: #14425d;
+}
+
+.link:hover {
+  color: rgba(147, 147, 147, 1);
+}

@@ -1,0 +1,58 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../../components/variables.css';
+
+.background {
+  text-align: center;
+  background-image: url(/images/background1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  padding: 15px;
+}
+
+.kicker {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.myFace {
+  height: 255px;
+  width: 255px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-position: center center;
+  background-size: 260px;
+  background-image: url(/images/myface.JPG);
+}
+
+.namePlate {
+  text-align: center;
+  color: white;
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border: white solid 10px;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+  margin-top: 20px;
+  line-height: 1.05;
+}
+
+.root {
+  text-align: center;
+  margin-top: 0;
+}
