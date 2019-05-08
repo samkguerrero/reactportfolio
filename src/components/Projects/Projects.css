@@ -58,11 +58,11 @@
 .showcaseProject {
   opacity: 1;
   position: absolute;
-  height: 100%;
   width: 100%;
   transition: 1s ease;
   background-color: #fff;
   z-index: 1;
+  padding-bottom: 250px;
 }
 
 .showcaseProjectHide {
@@ -81,7 +81,7 @@
   color: #14425d;
   width: 50px;
   height: 50px;
-  float: left;
+  margin: 10px;
   /* position: fixed; */
   /* left: 0; */
 }
@@ -115,6 +115,7 @@
   text-align: center;
   margin-top: 15px;
   background-color: #fff;
+  padding-bottom: 25px;
 }
 
 .projectTitle {
@@ -196,12 +197,10 @@
   -ms-transform: translate(-50%, -50%);
 }
 
-.addzoomtbl table {
+.addzoomtbl {
+  width: 90%;
   margin: 0 auto;
-  height: 700px;
-  padding: 25px;
-  margin-bottom: 25px;
-  text-align: left;
+  margin-top: 25px;
 }
 
 .addzoomtbl th {
@@ -227,7 +226,7 @@
 
 .example {
   width: 100%;
-  height: 300px;
+  height: 500px;
 }
 
 .nonlistworkflow {
@@ -292,25 +291,50 @@ iframe #document {
   color: #14425d;
 }
 
+.imgTableWhole {
+  margin: 0 auto;
+  width: 80%;
+}
+
 .drinkTable {
-  text-align: center;
-  border: 2px solid #14425d;
   color: #14425d;
   padding: 5px;
-  margin: 20px;
-}
-
-.drinlTd {
-  padding: 5px;
-  border: none;
-}
-
-.imgTableWhole {
-  width: 70%;
-  height: 100%;
 }
 
 .imgTable {
-  width: 100%;
-  height: 100%;
+  height: 650px;
+}
+
+.voiceassistanttable {
+  margin: 20px;
+}
+
+.voiceassistanttable img {
+  width: 500px;
+  height: 400px;
+  margin: 5px;
+}
+
+
+
+.myproftable {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #14425d;
+}
+
+.drinkblockpairwrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.drinkblockpair {
+  vertical-align: top;
+  margin: 5px;
+  display: inline-block;
+  text-align: left;
+}
+
+.drinkTable {
+  max-width: 300px;
 }

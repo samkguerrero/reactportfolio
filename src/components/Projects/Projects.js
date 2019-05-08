@@ -68,16 +68,21 @@ class Projects extends React.Component {
                       <h2 className={s.projectTitle} id="lovecraft">Interactive Web Mapping with JavaScript</h2>
                       <div className={s.projecttext}>
                         <p>
-                        After completing <a className={s.link} href="http://arcg.is/1NP1MPs">The World of Lovecraft Tour</a> web map with <a className={s.link} href="https://www.arcgis.com/features/apps/index.html">ArcGIS Online</a>, I wanted to try to recreate it with open-source libraries. I felt my map was limited to the templates that ArcGIS Online provide. I recreated The World of Lovecraft Tour using the open-source JavaScript libary <a className={s.link} href="http://leafletjs.com/">Leaflet</a>. Here I was able to incorporate simple elements into my map that I felt were not accessible with ArcGIS Online templates. With Leaflet, I could manipulate the code and design the map with greater detail.
+                        After completing <a className={s.link} href="http://arcg.is/1NP1MPs">The World of Lovecraft Tour</a> web map with 
+                        <a className={s.link} href="https://www.arcgis.com/features/apps/index.html">ArcGIS Online</a>, I wanted to try to 
+                        recreate it with open-source libraries. I felt my map was limited to the templates that ArcGIS Online provide. I 
+                        recreated The World of Lovecraft Tour using the open-source JavaScript libary <a className={s.link} href="http://leafletjs.com/">Leaflet</a>. 
+                        Here I was able to incorporate simple elements into my map that I felt were not accessible with ArcGIS Online templates. 
+                        With Leaflet, I could manipulate the code and design the map with greater detail.
                         </p>
                       </div>
                       <a className={s.link} href="https://samkguerrero.github.io/theworldoflovecraft/love.html">
                         Check out the live example.</a><br />
-                      <a className={s.link} href="https://samkguerrero.github.io/theworldoflovecraft/love.html">
+                      <a className={s.link} href="https://github.com/samkguerrero/theworldoflovecraft.git">
                         <FontAwesome.FaGithub className={s.staticon} />See the Code.</a><br /><br />
                       <iframe
                         src={'https://samkguerrero.github.io/theworldoflovecraft/love.html'}
-                        width="90%" height="750" scrolling="no" frameBorder="0" id="share-demo-ifram"
+                        width="90%" height="800px" scrolling="no" frameBorder="0" id="share-demo-ifram"
                       />
                     </div>
                     :
@@ -89,17 +94,23 @@ class Projects extends React.Component {
                         <h2 className={s.projectTitle} id="flickrleaflet">Images by Coordinate with Leaflet and Flickr</h2>
                         <div className={s.projecttext}>
                           <p>
-                            This application is what I contributed to as my final project for the University of Washington Professional & Continuing Education course, <a className={s.link} href="https://www.pce.uw.edu/courses/programming-for-the-browser">JSCRIPT 200 B Wi 17: Programming For The Browser</a>. Users can click a point on the map and see filtered imagers related to the coordinates of that clicked location. Using the JavaScript map library <a className={s.link} href="http://leafletjs.com/examples/quick-start/">
-                            Leaflet</a> I created a map that returned coordinated upon clicking a location on the map. I then used the <a className={s.link} href="https://www.flickr.com/services/api/">Flickr API</a> to load images from their vast library based on the location that the user clicked. I added filter items from the Flickr API for the user to select in order to return a more specific set of images.
+                            This application is what I contributed to as my final project for the University of Washington Professional & 
+                            Continuing Education course, <a className={s.link} href="https://www.pce.uw.edu/courses/programming-for-the-browser">
+                            JSCRIPT 200 B Wi 17: Programming For The Browser</a>. Users can click a point on the map and see filtered imagers 
+                            related to the coordinates of that clicked location. Using the JavaScript map library 
+                            <a className={s.link} href="http://leafletjs.com/examples/quick-start/"> Leaflet</a> I created a map that returned 
+                            coordinated upon clicking a location on the map. I then used the <a className={s.link} href="https://www.flickr.com/services/api/">
+                            Flickr API</a> to load images from their vast library based on the location that the user clicked. I added filter items from the 
+                            Flickr API for the user to select in order to return a more specific set of images.
                           </p>
                         </div>
-                        <a className={s.link} href="https://github.com/samkguerrero/picturesbylocation">
+                        <a className={s.link} href="https://samkguerrero.github.io/picturesbylocation/finalproject.html">
                           Check out the live example.</a><br />
                         <a className={s.link} href="https://github.com/samkguerrero/picturesbylocation">
                           <FontAwesome.FaGithub className={s.staticon} />See the Code.</a><br /><br />
                         <iframe
                           src={'https://samkguerrero.github.io/picturesbylocation/finalproject.html'}
-                          width="90%" height="700" scrolling="yes" frameBorder="1" id="share-demo-iframe"
+                          width="90%" height="800px" scrolling="yes" frameBorder="1" id="share-demo-iframe"
                         />
                       </div>
                     :
@@ -130,7 +141,7 @@ class Projects extends React.Component {
                         <FontAwesome.FaGithub className={s.staticon} />See the Code.</a><br /><br />
                       <iframe
                         src={'https://samkguerrero.github.io/data_vis_and_mapping_for_bwc'}
-                        width="90%" height="700" scrolling="yes" frameBorder="1" id="share-demo-iframe"
+                        width="90%" height="800px" scrolling="yes" frameBorder="1" id="share-demo-iframe"
                       />
                     </div>
                     :
@@ -142,33 +153,60 @@ class Projects extends React.Component {
                       <h2 className={s.projectTitle} id="mixology">Mixologylab.io React App</h2>
                       <div className={s.projecttext}>
                         <p>
-                          This application is what I help built as my capstone for the University of Washington Professional & Continuing Education course, <a className={s.link} href="https://www.pce.uw.edu/courses/modern-web-application">JSCRIPT 300 B Sp 17: Modern Web Application</a>. Using the <a className={s.link} href="https://facebook.github.io/react/">Reactjs</a> framework my group developed this application. By clicking through the buttons, users can filter the drink list by their preferences and return a drink list that reflects their taste. This application uses the <a className={s.link} href="https://addb.absolutdrinks.com/docs/">ABSOLUT API</a>. The JSON returned from the API once called was manipulated with features from the new ES6 features.
-                          The scafolding of the website was created using the <a className={s.link} href="https://github.com/facebookincubator/create-react-app">create-react-app</a> tool. I hope you give the site a visit at <a className={s.link} href="https://mixologylab.io/">mixology.io</a>
+                          This API has since been disconntinued, the screenshots below demonstrate the website's 
+                          functionality. This application is what I help built as my capstone for the University of 
+                          Washington Professional & Continuing Education course, 
+                          <a className={s.link} href="https://www.pce.uw.edu/courses/modern-web-application">
+                          JSCRIPT 300 B Sp 17: Modern Web Application</a>. Using the <a className={s.link} href="https://facebook.github.io/react/">
+                          Reactjs</a> framework my group developed this application. By clicking through the buttons, users can filter the drink 
+                          list by their preferences and return a drink list that reflects their taste. This application uses the 
+                          <a className={s.link} href="https://addb.absolutdrinks.com/docs/">ABSOLUT API</a>. The JSON returned from the API once 
+                          called was manipulated with features from the new ES6 features. The scafolding of the website was created using the 
+                          <a className={s.link} href="https://github.com/facebookincubator/create-react-app">create-react-app</a> 
+                          tool. I hope you give the site a visit at <a className={s.link} href="https://mixologylab.io/">mixology.io</a> 
                         </p>
                       </div>
                       <a className={s.link} href="https://github.com/UWJS300/Capstone-Sung-Knopik-Guerrero">
                         <FontAwesome.FaGithub className={s.staticon} />See the Code.</a><br /><br />
-                      <table className={s.imgTableWhole}>
-                        <tr>
-                          <th className={s.drinkTable}>Select Gin, Vodka, Tequila, Brandy,
-                            Whisky, or Rum from the wheel as your base alcohol. </th>
-                          <th className={s.drinkTable}>Select a taste combination for your desired drink.</th>
-                        </tr>
-                        <tr>
-                          <td className={s.drinlTd}><img className={s.imgTable} src="/images/one.PNG" alt="Smiley face" /></td>
-                          <td className={s.drinlTd}><img className={s.imgTable} src="/images/two.PNG" alt="Smiley face" /></td>
-                        </tr>
-                        <tr>
-                          <th className={s.drinkTable}>Sort by name or rating and choose a
-                            drink you want to make.</th>
-                          <th className={s.drinkTable}>View the drink ingredients and watch
-                            the video on how to prepare the drink.</th>
-                        </tr>
-                        <tr>
-                          <td className={s.drinlTd}><img className={s.imgTable} src="/images/three.PNG" alt="Smiley face" /></td>
-                          <td className={s.drinlTd}><img className={s.imgTable} src="/images/four.PNG" alt="Smiley face" /></td>
-                        </tr>
-                      </table>
+
+                      <div className={s.drinkblockpairwrapper}>
+                        <div className={s.drinkblockpair}>
+                          <div>
+                            <p className={s.drinkTable}>1. Select Gin, Vodka, Tequila, Brandy,
+                              Whisky, or Rum as your base.</p>
+                          </div>
+                          <div>
+                            <div className={s.drinlTd}><img className={s.imgTable} src="/images/one.PNG" alt="Smiley face" /></div>
+                          </div>
+                        </div>
+                        <div className={s.drinkblockpair}>
+                          <div>
+                            <p className={s.drinkTable}>2. Select a taste combination for your desired drink.</p>
+                          </div>
+                          <div>
+                            <div className={s.drinlTd}><img className={s.imgTable} src="/images/two.PNG" alt="Smiley face" /></div>
+                          </div>
+                        </div>
+                        <div className={s.drinkblockpair}>
+                          <div>
+                            <p className={s.drinkTable}>3. Sort by name or rating and choose a
+                              drink you want to make.</p>
+                          </div>
+                          <div>
+                            <div className={s.drinlTd}><img className={s.imgTable} src="/images/three.PNG" alt="Smiley face" /></div>
+                          </div>
+                        </div>
+                        <div className={s.drinkblockpair}>
+                          <div>
+                            <p className={s.drinkTable}>4. View the drink ingredients and watch
+                              the video on how to prepare the drink.</p>
+                          </div>
+                          <div>
+                            <div className={s.drinlTd}><img className={s.imgTable} src="/images/four.PNG" alt="Smiley face" /></div>
+                          </div>
+                        </div>
+                      </div>
+
                     </div>
                     :
                     <div className={s.emptyDiv}></div>
@@ -179,13 +217,32 @@ class Projects extends React.Component {
                       <h2 className={s.projectTitle} id="dash">My Profile</h2>
                       <div className={s.projecttext}>
                         <p>
-                          This is my profile.
+                          A portfolio was one of the first things I built when trying to teach myself how to assemble a web page.
+                          I was interested in web mapping and followed the <a className={s.link} href="https://www.youtube.com/watch?v=VcMjo_wczCc">DevTips </a> 
+                            tutorial on how to make a website. They started off from the begining and worked thier way to a fully deployed website.
+                          I made this website and had a working copy for myself which I used. I have since redone this website using ReactJS, in order 
+                          to practice ReactJS
+                        </p>
+                        <p>
+                          The challanges for this website came when I was trying to display the project details. Normally I would use JQuery to hide and show
+                          what I wanted when the user clicked elements. In ReactJS DOM manipulation is handled very differently. I had to manage the state 
+                          of the componenet in order to track when the user was clicking into a project or leaving one.
                         </p>
                       </div>
                       <a className={s.link} href="http://www.samkguerrero.com">
                         Check out the live example.</a><br />
                       <a className={s.link} href="https://github.com/samkguerrero/reactportfolio">
                         <FontAwesome.FaGithub className={s.staticon} />See the Code.</a><br /><br />
+                        
+                        <div>
+                          <div className={s.myproftable} >
+                            <img width="800px"  src="/images/myprof1.png" alt="Smiley face" />
+                          </div>
+                          <div className={s.myproftable} >
+                            <img width="800px"  src="/images/myprof2.png" alt="Smiley face" />
+                          </div>
+                        </div>
+
                     </div>
                     :
                     <div className={s.emptyDiv}></div>
@@ -195,14 +252,34 @@ class Projects extends React.Component {
                     <div>
                       <h2 className={s.projectTitle} id="dash">Voice Assistant</h2>
                       <div className={s.projecttext}>
-                        <p>
-                          This is my voiceassistant.
-                        </p>
+                      <p>
+                        The idea behind this app is a virtual assistant that can respond to 
+                        commands given verbally. We wanted to imiate the functionality of google voice 
+                        commands and Apple's Siri. We have integrated several libraries that gives our 
+                        virtual assistant the power to server dyanmic content.
+
+                        This project was made with Python as the backend and Django as the framework. It 
+                        is hosted on an AWS Ec2 instance of Ubuntu 16 and is run with Nginix. The content 
+                        that is returned is the reuslt of several different API that that application 
+                        queries with commands from the user.
+                      </p>
                       </div>
                       <a className={s.link} href="https://www.voiceassistant.xyz/">
                         Check out the live example.</a><br />
                       <a className={s.link} href="https://github.com/samkguerrero/VoiceAssistant">
                         <FontAwesome.FaGithub className={s.staticon} />See the Code.</a><br /><br />
+
+                      <div className={s.voiceassistanttable}>
+                          <img src="/images/voiceassistant1.png" alt="Smiley face" />
+                          <img src="/images/voiceassistant2.png" alt="Smiley face" />
+                          <img src="/images/voiceassistant3.png" alt="Smiley face" />
+                          <img src="/images/voiceassistant4.png" alt="Smiley face" />
+                          <img src="/images/voiceassistant5.png" alt="Smiley face" />
+                          <img src="/images/voiceassistant6.png" alt="Smiley face" />
+                          <img src="/images/voiceassistant7.png" alt="Smiley face" />
+                          <img src="/images/voiceassistant8.png" alt="Smiley face" />
+                      </div>
+                      
                     </div>
                     :
                     <div className={s.emptyDiv}></div>
@@ -214,7 +291,8 @@ class Projects extends React.Component {
                       <div className={s.projecttext}>
                         <p>
                           In a previous job I was tasked with investigating the roads around specific points
-                          at a detailed scale. The workflow consisted of importing <a className={s.link} href="ftp://ftp2.census.gov/geo/tiger/TIGER2015/">
+                          at a detailed scale. The workflow consisted of importing 
+                          <a className={s.link} href="ftp://ftp2.census.gov/geo/tiger/TIGER2015/">
                           Tiger 2015</a> road shapefiles into QGIS. Followed by zooming to the specified
                           coordinates to inquire about the nearby roads. Loading one at a time was not
                           practical, given that there were multiple coordinates to be searched.
@@ -225,7 +303,7 @@ class Projects extends React.Component {
                         Check out the live example.</a><br />
                       <a className={s.link} href="https://github.com/samkguerrero/addandzoom">
                         <FontAwesome.FaGithub className={s.staticon} />See the Code.</a><br /><br />
-                      <table className={s.addzoomtbl} border="1px">
+                      <table  className={s.addzoomtbl} border="1px">
                         <thead>
                           <tr>
                             <th>Previous Workflow</th>
@@ -313,13 +391,34 @@ class Projects extends React.Component {
                       <h2 className={s.projectTitle} id="dash">Exploding Ninja</h2>
                       <div className={s.projecttext}>
                         <p>
-                          Below is an example of the dashboards I built
+                          This project was made in a group at the conclusion of the MEAN stack for Coding Dojo.
+                          The goal of this project is to adapt the popular board game “Exploding Kittens” 
+                          into a playable web application. We want players to be able to invite friends and play 
+                          with them. We chose to build this application using socket.io to allow for instant interaction between players.
+                          The front end is Javascript and the backend is Node and Socket.io. Every interaction with the game board is sent 
+                          back to a server and emitted out to every other player.
+                        </p>
+                        <p>
+                          The challange with this project was that the socket listeners and emitters were all on the same file. In hindsight we should have modularized this out.
+                          This made using this project with git very difficult since all members of the group were editing the same two files. We learned how important 
+                          bieng able to modularize your code out when working in groups.
                         </p>
                       </div>
                       <a className={s.link} href="http://34.217.31.200/">
                         Check out the live example.</a><br />
                       <a className={s.link} href="https://github.com/samkguerrero/exploding_ninjas">
                         <FontAwesome.FaGithub className={s.staticon} />See the Code.</a><br /><br />
+                      <div className={s.voiceassistanttable}>
+                        <img src="/images/explode1.png" alt="Smiley face" />
+                        <img src="/images/explode2.png" alt="Smiley face" />
+                        <img src="/images/explode3.png" alt="Smiley face" />
+                        <img src="/images/explode4.png" alt="Smiley face" />
+                        <img src="/images/explode5.png" alt="Smiley face" />
+                        <img src="/images/explode6.png" alt="Smiley face" />
+                        <img src="/images/explode7.png" alt="Smiley face" />
+                        <img src="/images/explode8.png" alt="Smiley face" />
+                        <img src="/images/explode9.png" alt="Smiley face" />
+                    </div>
                     </div>
                     :
                     <div className={s.emptyDiv}></div>
@@ -347,6 +446,7 @@ class Projects extends React.Component {
             }
           </div>
 
+          <br/>
           <h1 className={s.namePlate}>Projects</h1>
           <table className={this.state.showCasingProject === "Yes" ? s.projgridHide : s.projgrid}>
             <thead>
@@ -491,7 +591,7 @@ class Projects extends React.Component {
                         <div className={s.container}>
                           <img src="/images/explodingninja.png" alt="Smiley face" className={s.image} />
                           <a id="projexplodingninja" onClick={this.showProject} className={s.overlay} href="#projects">
-                            <div id="projexplodingninja" onClick={this.showProject} className={s.text}>Exploding Ninja Using Socket.io</div>
+                            <div id="projexplodingninja" onClick={this.showProject} className={s.text}>Exploding Kittens Using Socket.io</div>
                           </a>
                         </div>
                       </div>
